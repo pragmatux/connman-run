@@ -1,0 +1,17 @@
+Source: connman-run
+Section: config
+Priority: extra
+Maintainer: Ryan Kuester <rkuester@insymbols.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Vcs-Git: http://git.pragmatux.org/connman-run.git
+Vcs-Browser: http://git.pragmatux.org/connman-run.git
+
+Package: connman-run
+Architecture: all
+Depends: connman, systemd, ${misc:Depends}
+Description: Run the Connection Manager (connman)
+ This package provides the Connection Manager (connman) as a dependency, and
+ the systemd configuration necessary to enable it. The unit file, which
+ includes the choice of install target (runlevel), resides in the connman
+ package.
