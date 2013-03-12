@@ -1,15 +1,5 @@
-connman-run (1.0~4.gbp6ac67e) UNRELEASED; urgency=low
+connman-run (1.0) unstable; urgency=low
 
-  ** SNAPSHOT build @6ac67e79b2a09875dccb9caec96ede747bb86ac9 **
+  * Initial release
 
-  * Initial add
-
- -- Ryan Kuester <rkuester@insymbols.com>  Mon, 11 Mar 2013 23:21:57 +0000
-
-connman-run (1.0~3.gbp6c6bf4) unstable; urgency=low
-
-  ** SNAPSHOT build @6c6bf4c87d031ec56b073f905d7f9d634eaf47be **
-
-  * Initial Release.
-
- -- Ryan Kuester <rkuester@insymbols.com>  Thu, 07 Mar 2013 20:57:18 +0000
+ -- Ryan Kuester <rkuester@insymbols.com>  Tue, 12 Mar 2013 04:10:53 +0000
